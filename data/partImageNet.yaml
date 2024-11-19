@@ -1,0 +1,15 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+#download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./partImageNet/train.txt  # 16540 images
+val: ./partImageNet/val.txt  # 2957 images
+test: ./partImageNet/test.txt  # 4597 
+
+# number of classes
+nc: 13
+
+# class names
+names: ["Head", "Body", "Foot", "Tail", "Hand", "Fin", "Wing", "Tire", "Side Mirror", "Seat", "Sail", "Engine", "Mouth" ]

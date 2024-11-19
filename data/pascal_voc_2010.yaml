@@ -1,0 +1,19 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+#download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./pascal_voc_2010/train.txt  # 16540 images
+val: ./pascal_voc_2010/val.txt  # 2957 images
+test: ./pascal_voc_2010/test.txt  # 4597 
+
+# number of classes
+nc: 44
+
+# class names
+names: ["body", "stern", "wing", "tail", "engine", "wheel", "saddle", "handlebar", "chainwheel","head", 
+        "eye", "beak", "torso", "neck", "leg", "lleg", "uleg", "foot","cap", "side",
+        "roof", "mirror","liplate","door","headlight","window", "ear", "nose","paw","muzzle", 
+        "horn", "hoof", "eyebrow", "hair", "larm", "uarm", "hand", "pot", "plant","coach", 
+        "cside", "croof", "mouth", "screen"]
